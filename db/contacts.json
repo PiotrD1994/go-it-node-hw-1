@@ -64,5 +64,11 @@
     "name": "Nowy Użytkownik",
     "email": "nowy@example.com",
     "phone": "123-456-7890"
+  },
+  {
+    "id": "lq7vmtsw",
+    "name": "Mango",
+    "email": "mango@gmail.com",
+    "phone": "322-22-22"
   }
 ]
