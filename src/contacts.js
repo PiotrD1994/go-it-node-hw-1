@@ -1,7 +1,7 @@
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs'
+import path from 'path'
 
-const contactsPath = path.join(__dirname, '../db', 'contacts.json');
+const contactsPath = path.join(process.cwd(), "/routes/api/db/contacts.json");
 
 const contactService = {
   listContacts: function () {
@@ -60,4 +60,4 @@ const contactService = {
   },
 };
 
-module.exports = contactService
+export default contactService

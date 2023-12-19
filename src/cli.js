@@ -1,5 +1,5 @@
-const {Command} = require("commander")
-const contactService = require("./contacts")
+import { Command } from 'commander'
+import contactService from './contacts.js'
 const program = new Command()
 
 program
@@ -35,4 +35,4 @@ function invokeAction({action, id, name, email, phone}) {
         console.warn("\x1B[31m Unknown action type!")
         }
 }
-module.exports = invokeAction(args);
+export default invokeAction

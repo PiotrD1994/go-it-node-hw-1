@@ -1,3 +1,3 @@
-const invokeAction = require('./cli')
+import invokeAction from './cli.js'
 
 invokeAction();
